@@ -9,3 +9,11 @@ data,descricao,categoria,valor,tipo
 2025-10-15,Conta de Luz,moradia,180.00,saida
 2025-10-20,Academia,saude,99.00,saida
 2025-10-25,Combustível,transporte,250.00,saida
+2025-10-28,iFood,alimentacao,85.00,saida
+2025-10-30,Reserva de Emergência,investimento,500.00,saida
+2025-11-01,Salário,receita,5000.00,entrada
+2025-11-02,Aluguel,moradia,1200.00,saida
+2025-11-05,Shopee,lazer,150.00,saida
+2025-11-10,Restaurante Japonês,alimentacao,210.00,saida
+2025-11-15,Internet,moradia,120.00,saida
+2025-11-20,Manutenção Carro,transporte,400.00,saida
