@@ -1,42 +1,62 @@
 [
   {
+    "id": "RF001",
     "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
+    "categoria": "Renda Fixa",
+    "risco": "Baixo",
+    "rentabilidade": "Selic + taxa fixa",
+    "liquidez": "D+1 (Diária)",
     "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+    "vencimento": "2029",
+    "tributacao": "Tabela Regressiva (IR)",
+    "indicado_para": "Reserva de emergência e objetivos de curtíssimo prazo"
   },
   {
+    "id": "RF002",
     "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
+    "categoria": "Renda Fixa",
+    "risco": "Baixo",
     "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "liquidez": "Imediata",
+    "aporte_minimo": 1.00,
+    "vencimento": "2027",
+    "tributacao": "Tabela Regressiva (IR)",
+    "indicado_para": "Reserva de oportunidade e segurança total com FGC"
   },
   {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
+    "id": "RF003",
+    "nome": "LCI/LCA Isenta",
+    "categoria": "Renda Fixa",
+    "risco": "Baixo",
     "rentabilidade": "95% do CDI",
+    "liquidez": "Após 90 dias",
     "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "vencimento": "2026",
+    "tributacao": "Isento para Pessoa Física",
+    "indicado_para": "Investidores que buscam rentabilidade líquida maior sem risco"
   },
   {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
+    "id": "FM001",
+    "nome": "Fundo Multimercado Estruturado",
+    "categoria": "Fundos",
+    "risco": "Médio",
+    "rentabilidade": "CDI + 2% (Alvo)",
+    "liquidez": "D+30",
     "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
+    "vencimento": "Indeterminado",
+    "tributacao": "Come-cotas (Semestral)",
+    "indicado_para": "Diversificação de portfólio para perfil moderado"
   },
   {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
+    "id": "FA001",
+    "nome": "Fundo de Ações Indexado (Ibovespa)",
+    "categoria": "Fundos",
+    "risco": "Alto",
+    "rentabilidade": "Variável (Benchmark Ibovespa)",
+    "liquidez": "D+15",
     "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "vencimento": "Indeterminado",
+    "tributacao": "15% sobre o lucro",
+    "indicado_para": "Acúmulo de patrimônio focado em prazos acima de 5 anos"
   }
 ]
